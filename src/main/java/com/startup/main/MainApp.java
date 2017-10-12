@@ -1,4 +1,4 @@
-package com.javacodegeeks.examples;
+package com.startup.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration
 @ComponentScan("com.javacodegeeks.examples")
-public class WebAppInitializer{
+public class MainApp{
 
     public static void main(String[] args) throws Exception{
-        SpringApplication.run(WebAppInitializer.class, args);
+        SpringApplication.run(MainApp.class, args);
     }
 }
 
