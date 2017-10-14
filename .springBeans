@@ -7,7 +7,7 @@
 	</configSuffixes>
 	<enableImports><![CDATA[false]]></enableImports>
 	<configs>
-		<config>java:com.startup.main.MainApp</config>
+		<config>java:com.xanrup.main.MainApp</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
