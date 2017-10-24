@@ -87,13 +87,3 @@ ul.verticle-list li.v-list-item a:hover {
 	border-radius: 4px;
 	border-bottom: none;
 }
-
-.home-content {
-	background-color: yellow;
-}
-
-.main-banners {
-	top: 100px;
-	margin: 0px;
-	padding: 0px;
-}
