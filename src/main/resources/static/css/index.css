@@ -1650,3 +1650,40 @@ to {
 	.w3-hover-border-gray:hover {
 	border-color: #bbb !important
 }
+
+
+.fullBg {
+	position: absolute;
+	max-width:100%;
+	top: 62px;
+	left: 0;
+	height:auto;
+}
+
+.nav {
+	position: absolute;
+	right: 35px;
+	top: 35px;
+	z-index: -10;
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	cursor: pointer;
+}
+
+.nav a {
+	background-color: rgba(255, 255, 255, 0.50);
+}
+
+.progress {
+	margin-top: 10%;
+}
+
+.main-summary {
+	position:absolute;
+	margin-top:500px;
+	z-index: 15;
+}

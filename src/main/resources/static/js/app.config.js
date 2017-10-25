@@ -3,9 +3,8 @@
 	app.config(function($routeProvider) {
 		$routeProvider.when('/', {
 			templateUrl : '/index.html',
-			controller : 'indexController'
-		}).
-		when('/home', {
+			controller : 'MainCtrl'
+		}).when('/home', {
 			templateUrl : '/views/home.html',
 			controller : 'homeController'
 		}).when('/contactus', {
