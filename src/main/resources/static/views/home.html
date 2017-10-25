@@ -1,9 +1,7 @@
-<div class="home-section">
+<div>
 
-
-	<h3>Our expert team of Website Developers & Digital Strategists
-		use cutting edge technology & best practices to create custom sites
-		that increase user engagement.</h3>
-
+	<img ng-show="loaded" bg-image class="fullBg {{currentAnimation}}"
+		ng-repeat="slide in slides" ng-if="isCurrentSlideIndex($index)"
+		ng-src="{{slide.src}}">
 
 </div>

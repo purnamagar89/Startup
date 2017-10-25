@@ -1,8 +1,8 @@
 (function() {
-	var app = angular.module('app', [ 'ngRoute', 'ngResource' ]);
-	app.config(function($routeProvider) {
+	var app = angular.module('xanrup-app', [ 'ngRoute']);
+	app.config('$routeProvider', function($routeProvider) {
 		$routeProvider.when('/', {
-			templateUrl : '/index.html',
+			templateUrl : '/views/home.html',
 			controller : 'MainCtrl'
 		}).when('/home', {
 			templateUrl : '/views/home.html',
@@ -15,4 +15,4 @@
 		});
 	});
 
-})();
+}());
