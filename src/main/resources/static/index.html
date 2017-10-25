@@ -33,23 +33,27 @@
 
 		</div>
 	</div>
+	
+	<div>
+        <h1>The Index</h1>
+        <ul>
+            <li>
+                <a ng-href="#!/test"> Temp One</a>
+            </li>
+        </ul>
 
-	<div ng-controller="MainCtrl">
 
-		<img ng-show="loaded" bg-image class="fullBg {{currentAnimation}}"
-			ng-repeat="slide in slides" ng-if="isCurrentSlideIndex($index)"
-			ng-src="{{slide.src}}">
+        <div ng-view></div>
+    </div>
 
-	</div>
-
-	<script src="libs/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script
 		src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.1/TweenMax.min.js"></script>
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
 	<script
 		src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-animate.min.js"></script>
-	<script src="libs/ui-bootstrap-tpls-0.11.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.js"></script>
 	<script src="http://code.createjs.com/preloadjs-0.4.1.min.js"></script>
 	<script src="https://code.angularjs.org/1.6.6/angular-route.js"></script>
 

@@ -1,7 +1,7 @@
 (function() {
 	var app = angular.module('xanrup-app', [ 'ngRoute']);
 	app.config('$routeProvider', function($routeProvider) {
-		$routeProvider.when('/', {
+		$routeProvider.when('/test', {
 			templateUrl : '/views/home.html',
 			controller : 'MainCtrl'
 		}).when('/home', {
