@@ -1,4 +1,6 @@
-app.factory('QueueService', QueueService);
+(function() {
+	var app = angular.module('index-service', []);
+	app.factory('QueueService', QueueService);
 
 	function QueueService($rootScope) {
 		var queue = new createjs.LoadQueue(true);
@@ -18,4 +20,4 @@ app.factory('QueueService', QueueService);
 			loadManifest : loadManifest
 		}
 	}
-
+})();

@@ -1,22 +1,24 @@
+(function() {
+	var app = angular.module('index-controller', ['ngAnimate' ]);
 app.controller('MainCtrl', MainCtrl);
 MainCtrl.$inject = [ '$scope', '$timeout', 'QueueService' ];
 
 function MainCtrl($scope, $timeout, QueueService) {
-	var INTERVAL = 3000, slides = [ {
+	var INTERVAL = 4000, slides = [ {
 		id : "image00",
-		src : "./images/image00.jpg"
+		src : "./images/main-banner00.jpg"
 	}, {
 		id : "image01",
-		src : "./images/image01.jpg"
+		src : "./images/main-banner01.jpg"
 	}, {
 		id : "image02",
-		src : "./images/image02.jpg"
+		src : "./images/main-banner02.jpg"
 	}, {
 		id : "image03",
-		src : "./images/image03.jpg"
+		src : "./images/main-banner03.jpg"
 	}, {
 		id : "image04",
-		src : "./images/image04.jpg"
+		src : "./images/main-banner04.jpg"
 	} ];
 
 	function setCurrentSlideIndex(index) {
@@ -119,3 +121,4 @@ app.directive('bgImage', function($window, $timeout) {
 		});
 	}
 });
+})();
