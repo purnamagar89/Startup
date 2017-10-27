@@ -1,7 +1,4 @@
-(function() {
-	var app = angular.module('xanrup-app');
-
-	app.factory('QueueService', QueueService);
+app.factory('QueueService', QueueService);
 
 	function QueueService($rootScope) {
 		var queue = new createjs.LoadQueue(true);
@@ -22,4 +19,3 @@
 		}
 	}
 
-}());
