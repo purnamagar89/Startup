@@ -13,13 +13,7 @@ function MainCtrl($scope, $timeout, QueueService) {
 	}, {
 		id : "image02",
 		src : "./images/main-banner02.jpg"
-	}, {
-		id : "image03",
-		src : "./images/main-banner03.jpg"
-	}, {
-		id : "image04",
-		src : "./images/main-banner04.jpg"
-	} ];
+	}];
 
 	function setCurrentSlideIndex(index) {
 		$scope.currentIndex = index;
