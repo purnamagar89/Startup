@@ -1,6 +1,15 @@
-<div >
-	<img ng-show="loaded" bg-image class="fullBg {{currentAnimation}}"
-		ng-repeat="slide in slides" ng-if="isCurrentSlideIndex($index)"
-		ng-src="{{slide.src}}">
+<div>
+	<img ng-show="loaded" id="banner-image"
+		class="{{currentAnimation}}" ng-repeat="slide in slides"
+		ng-if="isCurrentSlideIndex($index)" ng-src="{{slide.src}}">
+
 
 </div>
+
+<section>Put some lovely content here!</section>
+<section>Put some lovely content here!</section>
+<section>Put some lovely content here!</section>
+<section>Put some lovely content here!</section>
+<section>Put some lovely content here!</section>
+<section>Put some lovely content here!</section>
+
