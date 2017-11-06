@@ -1,5 +1,23 @@
-.home-section {
-	margin: 0px;
-	pading: 0px;
-	background-color: #7699D4;
+section {
+  margin: 100px auto 100px auto;
+  height: 500px;
+  width: 600px;
+  background: tomato;
+  text-align: center;
+  padding-top: 300px;
+  color: white;
+  font-size: 4em;
+  z-index: 200;
+}
+
+#banner-image {
+	width: 100%;
+	height: 100%;
+	margin-top: -100px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+	position: absolute;
+	z-index: -1;
 }
