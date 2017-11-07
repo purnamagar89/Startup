@@ -4,7 +4,7 @@ app.controller('MainCtrl', MainCtrl);
 MainCtrl.$inject = [ '$scope', '$timeout', 'QueueService' ];
 
 function MainCtrl($scope, $timeout, QueueService) {
-	var INTERVAL = 4000, slides = [ {
+	var INTERVAL = 8000, slides = [ {
 		id : "image00",
 		src : "./images/main-banner00.jpg"
 	}, {

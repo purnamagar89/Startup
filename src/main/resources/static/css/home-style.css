@@ -1,13 +1,24 @@
 section {
-  margin: 100px auto 100px auto;
-  height: 500px;
-  width: 600px;
-  background: tomato;
-  text-align: center;
-  padding-top: 300px;
-  color: white;
-  font-size: 4em;
-  z-index: 200;
+	margin: 100px auto auto 80px;
+	height: 100px;
+	width: 600px;
+	background: tomato;
+	text-align: left;
+	padding-top: 10px;
+	color: white;
+	z-index: 200;
+}
+
+article {
+	margin: 350px auto auto 80px;
+	height: 200px;
+	width: 700px;
+	background: none;
+	text-align: left;
+	padding: 15px;
+	color: white;
+	z-index: 200;
+	line-height: 110%;
 }
 
 #banner-image {

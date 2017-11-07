@@ -1,12 +1,35 @@
 <div>
-	<img ng-show="loaded" id="banner-image"
-		class="{{currentAnimation}}" ng-repeat="slide in slides"
-		ng-if="isCurrentSlideIndex($index)" ng-src="{{slide.src}}">
+	<img ng-show="loaded" id="banner-image" class="{{currentAnimation}}"
+		ng-repeat="slide in slides" ng-if="isCurrentSlideIndex($index)"
+		ng-src="{{slide.src}}">
 
 
 </div>
 
-<section>Put some lovely content here!</section>
+<section>
+	<h3>
+		<b>We Are Xanrup..</b>
+	</h3>
+</section>
+
+<article ng-show="currentIndex===0">
+	<h3>Good design is obvious. Great design is transparent.</h3>
+	<h4>&nbsp&nbsp - Joe Sparano</h4>
+</article>
+<article ng-show="currentIndex===1">
+	<h3>The function of good software is to make the complex appear to
+		be simple.</h3>
+	<h4>&nbsp&nbsp - Grady Booch</h4>
+</article>
+
+<article ng-show="currentIndex===2">
+	<h3>Get closer than ever to your customers. So close, in fact,
+		that you tell them what they need well before they realize it
+		themselves.</h3>
+	<h4>&nbsp&nbsp - Steve Jobs</h4>
+</article>
+
+
 <section>Put some lovely content here!</section>
 <section>Put some lovely content here!</section>
 <section>Put some lovely content here!</section>
