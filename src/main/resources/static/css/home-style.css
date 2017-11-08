@@ -1,25 +1,61 @@
-section {
+.other {
 	margin: 100px auto auto 80px;
-	height: 100px;
+	height: 120px;
 	width: 600px;
-	background: tomato;
 	text-align: left;
-	padding-top: 10px;
+	padding: 10px;
 	color: white;
+	background-color:tomato;
+	z-index: 200;
+}
+
+.hero-header{
+	margin: 100px auto auto 80px;
+	height: 120px;
+	width: 600px;
+	text-align: left;
+	padding: 10px;
+	color: white;
+	background-color:none;
 	z-index: 200;
 }
 
 article {
-	margin: 350px auto auto 80px;
+	margin: 200px auto auto 80px;
 	height: 200px;
 	width: 700px;
-	background: none;
-	text-align: left;
-	padding: 15px;
-	color: white;
 	z-index: 200;
 	line-height: 110%;
+	
+	position: static;
+	font-family: 'latolight';
+	font-size: 20px;
+	padding: 0px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: 400;
 }
+
+.hero-title {
+	position: static;
+	font-family: 'latolight';
+	font-size: 36px;
+	padding: 15px auto auto 15px;
+	margin-top:10px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: 600;
+}
+.hero-description {
+	position: static;
+	font-family: 'latolight';
+	font-size: 20px;
+	padding: 0px;
+	letter-spacing: 2px;
+	color: #fff;
+	font-weight: 400;
+}
+
 
 #banner-image {
 	width: 100%;
