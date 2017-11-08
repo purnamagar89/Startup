@@ -5,18 +5,18 @@
 	text-align: left;
 	padding: 10px;
 	color: white;
-	background-color:tomato;
+	background-color: tomato;
 	z-index: 200;
 }
 
-.hero-header{
+.hero-header {
 	margin: 100px auto auto 80px;
 	height: 120px;
 	width: 600px;
 	text-align: left;
 	padding: 10px;
 	color: white;
-	background-color:none;
+	background-color: none;
 	z-index: 200;
 }
 
@@ -26,7 +26,6 @@ article {
 	width: 700px;
 	z-index: 200;
 	line-height: 110%;
-	
 	position: static;
 	font-family: 'latolight';
 	font-size: 20px;
@@ -41,11 +40,12 @@ article {
 	font-family: 'latolight';
 	font-size: 36px;
 	padding: 15px auto auto 15px;
-	margin-top:10px;
+	margin-top: 10px;
 	letter-spacing: 2px;
 	color: #fff;
 	font-weight: 600;
 }
+
 .hero-description {
 	position: static;
 	font-family: 'latolight';
@@ -55,7 +55,6 @@ article {
 	color: #fff;
 	font-weight: 400;
 }
-
 
 #banner-image {
 	width: 100%;
@@ -67,4 +66,17 @@ article {
 	background-color: transparent;
 	position: absolute;
 	z-index: -1;
+}
+
+.fade-in-hero-desc {
+	animation: fadeInHero 6s;
+}
+
+@keyframes fadeInHero {from { opacity:0;
+	
+}
+
+to {
+	opacity: 1;
+}
 }
