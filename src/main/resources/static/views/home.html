@@ -1,5 +1,5 @@
 <div>
-	<img ng-show="loaded" id="banner-image" class="{{currentAnimation}}"
+	<img ng-show="loaded" id="hero-image" class="{{currentAnimation}}"
 		ng-repeat="slide in slides" ng-if="isCurrentSlideIndex($index)"
 		ng-src="{{slide.src}}">
 
@@ -13,13 +13,13 @@
 </section>
 
 <article ng-show="currentIndex===0">
-	<div class="fade-in-hero-desc">
+	<div class="fade-in">
 		<h3>Good design is obvious. Great design is transparent</h3>
 		<h4>&nbsp&nbsp - Joe Sparano</h4>
 	</div>
 </article>
 <article ng-show="currentIndex===1">
-	<div class="fade-in-hero-desc">
+	<div class="fade-in">
 		<h3>The function of good software is to make the complex appear
 			to be simple.</h3>
 		<h4>&nbsp&nbsp - Grady Booch</h4>
@@ -27,7 +27,7 @@
 </article>
 
 <article ng-show="currentIndex===2">
-	<div class="fade-in-hero-desc">
+	<div class="fade-in">
 		<h3>Get closer than ever to your customers. So close, in fact,
 			that you tell them what they need well before they realize it
 			themselves</h3>
@@ -36,9 +36,10 @@
 </article>
 
 
-<section class="other">Put some lovely content here!</section>
-<section class="other">Put some lovely content here!</section>
-<section class="other">Put some lovely content here!</section>
-<section class="other">Put some lovely content here!</section>
-<section class="other">Put some lovely content here!</section>
-
+<section class="main-s2">
+	<h2 class="fade-in">Our Mission</h2>
+	<p class="fade-in">We strive to empower the world’s most
+		forward-thinking companies to realize their goals through superior
+		technology, service and support. To do this, we rely on our clients to
+		help us build an exceptional business as we live out our passion.</p>
+</section>
