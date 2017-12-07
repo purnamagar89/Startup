@@ -10,7 +10,7 @@
 }
 
 .main-s2 {
-	margin: 160px auto auto auto;
+	margin: 170px auto auto auto;
 	text-align: center;
 	width: 850px;
 	height: 360px;
@@ -103,4 +103,14 @@ article {
 to {
 	opacity: 1;
 }
+}
+
+#container
+{
+    height:2000px;    
+}
+
+.hideme
+{
+    opacity:0;
 }

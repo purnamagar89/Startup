@@ -1,4 +1,4 @@
-<div>
+<div >
 	<img ng-show="loaded" id="hero-image" class="{{currentAnimation}}"
 		ng-repeat="slide in slides" ng-if="isCurrentSlideIndex($index)"
 		ng-src="{{slide.src}}">
@@ -36,9 +36,9 @@
 </article>
 
 
-<section class="main-s2">
-	<h2 class="fade-in">Our Mission</h2>
-	<p class="fade-in">We strive to empower the world’s most
+<section class="main-s2" id="container" scroll-container>
+	<h2 class="hideme">Our Mission</h2>
+	<p class="hideme">We strive to empower the world’s most
 		forward-thinking companies to realize their goals through superior
 		technology, service and support. To do this, we rely on our clients to
 		help us build an exceptional business as we live out our passion.</p>
