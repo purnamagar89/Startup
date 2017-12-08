@@ -1,0 +1,303 @@
+a:hover, a:link {
+    text-decoration: none;
+}
+
+.heading-title {
+    margin-bottom: 50px;
+}
+h3 {
+    font-size: 40px;
+    line-height: 42px;
+}
+
+.btn, h1, h3 {
+    font-family: Avenir,Arial,Helvetica,sans-serif;
+}
+
+.navigationList-link, body, h1, h3 {
+    font-weight: 300;
+}
+
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+Inherited from div.heading
+.cards3-item, .cards4-item, .cards5-item, .cards5-object, .cards7-img, .cards8-name h4, .cardsBg-item, .description, .fullCards1-btn, .fullCards1-item, .heading, .heading-description p, .heading-title h3, .scheme-object {
+    text-align: center;
+}
+cards .heading~.cards-row, .cards .heading~.container .cards-row, .cards .heading~.container-fluid .cards-row, .cards .heading~.row {
+    margin-top: 74px;
+}
+
+.cards--page-main-2 .row {
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: 74px;
+    padding-top: 0!important;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+element.style {
+    background-image: url(https://www.iflexion.com/files/content/expertise/background/page-banner-home-1.jpg);
+}
+@media (min-width: 1031px)
+.cards--page-main-2 .column {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.cards--page-main-2 .column {
+    position: relative;
+    margin-left: -1px;
+    margin-top: -1px;
+    padding: 0;
+    z-index: 3;
+    background: 0 0;
+}
+
+.columns--2 .column, .columns--3 .column, .columns--4 .column, .columns--5 .column, .columns--6 .column {
+    display: block;
+    float: left;
+    padding: 0 15px;
+}
+
+.cards--page-main-2 .cards-item {
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+    background: 0 0;
+    overflow: hidden;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+.cards--page-main-2 .cards-wrapper {
+    padding: 76px 20px 80px;
+    width: 100%;
+}
+
+element.style {
+    background-image: url(https://www.iflexion.com/files/content/expertise/background/solution-preview-small-1.jpg);
+}
+
+.cards--page-main-2 .cards-item-link-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 1;
+    -webkit-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
+Inherited from div.cards-icon .cards--page-main-2 .cards-icon, .cards--page-main-2 .cards-name, .cards--page-main-2 .cards-text {
+    position: relative;
+    color: #234;
+    z-index: 5;
+}
+
+.cards--page-main-2 .cards-icon {
+    line-height: 60px;
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.cards-icon {
+    margin-bottom: 12px;
+    line-height: 130px;
+}
+Inherited from a.column-content.cards-item.icons--hover-white .cards--page-main-2 .cards-item {
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+    background: 0 0;
+    overflow: hidden;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+element.style {
+    background-image: url(https://www.iflexion.com/files/content/expertise/background/solution-preview-small-2.jpg);
+}
+
+
+.cards--page-main-2 .cards-icon, .cards--page-main-2 .cards-name, .cards--page-main-2 .cards-text {
+    position: relative;
+    color: #234;
+    z-index: 5;
+}
+
+.cards--page-main-2 .cards-icon {
+    line-height: 60px;
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+Inherited from div.cards-icon .cards--page-main-2 .cards-icon, .cards--page-main-2 .cards-name, .cards--page-main-2 .cards-text {
+    position: relative;
+    color: #234;
+    z-index: 5;
+}
+.cards--page-main-2 .cards-icon {
+    line-height: 60px;
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.cards-icon {
+    margin-bottom: 12px;
+    line-height: 130px;
+}
+
+.cards-text {
+	visibility: hidden;
+}
+
+.column:hover .cards-text{
+	visibility:visible;
+}
+
+.cards--page-main-2 .cards-item:hover .cards-name, .cards--page-main-2 .cards-item:hover .cards-text, .cards--page-main-2 .cards-name, .cards--page-main-2 .cards-text {
+    color: #FFF;
+}
+
+.cards--page-main-2 .cards-icon, .cards--page-main-2 .cards-name, .cards--page-main-2 .cards-text {
+    position: relative;
+    color: #234;
+    z-index: 5;
+}
+
+
+.cards--page-main-2 .cards-name h4 {
+    font-weight: 500;
+    font-size: 30px;
+    color:white;
+    line-height: 40px;
+    margin-top:40px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.cards-name h4 {
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+h4, h5 {
+    line-height: 40px;
+}
+
+user agent stylesheet
+h4 {
+    display: block;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.cards--page-main-2 .cards-icon, .cards--page-main-2 .cards-name, .cards--page-main-2 .cards-text {
+    position: relative;
+    color: #234;
+    z-index: 5;
+}
+
+.cards--page-main-2 .cards-item {
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+    background: 0 0;
+    overflow: hidden;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.cards--page-main-2 .cards-icon {
+    line-height: 60px;
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+@media (min-width: 1031px) .cards--page-main-2 .column {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+
+.cards--page-main-2 .column {
+    position: relative;
+    margin-left: -1px;
+    margin-top: -1px;
+    padding: 0;
+    z-index: 3;
+    background: 0 0;
+}
+
+.columns--4 .column {
+    width: 25%;
+}
+
+.columns--2 .column, .columns--3 .column, .columns--4 .column, .columns--5 .column, .columns--6 .column {
+    display: block;
+    float: left;
+    padding: 0 15px;
+}
+
+@media (min-width: 1031px) .cards--page-main-2 .column {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.cards--page-main-2 .column {
+    position: relative;
+    margin-left: -1px;
+    margin-top: -1px;
+    padding: 0;
+    z-index: 3;
+    background: 0 0;
+}
