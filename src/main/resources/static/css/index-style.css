@@ -40,6 +40,15 @@ header {
 	height: 60px;
 	background-color: #006699;
 }
+.main-header-logo{
+	margin-left:80px;
+	margin-top:-80px;
+	display:inline;
+	padding:0px;
+	height: 60px;
+	width: 30%;
+	background-color: none;
+}
 
 ul.horizontal-list {
 	margin:0px;
@@ -49,6 +58,7 @@ ul.horizontal-list {
 	float: right;
 	background-color: #006699;
 	list-style-type: none;
+	display:inline-block;
 }
 
 ul.horizontal-list li.h-list-item {
