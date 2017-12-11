@@ -76,7 +76,7 @@ article {
 .hero-title {
 	position: static;
 	font-family: Avenir, Arial, Helvetica, sans-serif;
-	font-size: 36px;
+	font-size: 40px;
 	padding: 15px auto auto 15px;
 	margin-top: 10px;
 	letter-spacing: 2px;
@@ -92,6 +92,12 @@ article {
 	letter-spacing: 2px;
 	color: #fff;
 	font-weight: 400;
+}
+
+.main-slide-q{
+	margin-top:-30px;
+	margin-left:540px;
+	
 }
 
 #hero-image {
