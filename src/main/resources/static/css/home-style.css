@@ -228,14 +228,14 @@ Inherited from .cards-item .cards--page-main-2 .cards-item {
 
 .column:hover .cards-text {
 	visibility: visible;
-	transition: all 2s ease;
+	transition: all 1s ease;
 }
 
 .column:hover .cards-name {
 	margin-top: -60px;
-	-webkit-transition: margin 1s;
-	-moz-transition: margin 1s;
-	transition: margin 1s;
+	-webkit-transition: margin 0.5s;
+	-moz-transition: margin 0.5s;
+	transition: margin 0.5s;
 }
 
 .cards--page-main-2 .cards-item:hover .cards-name, .cards--page-main-2 .cards-item:hover .cards-text,
@@ -300,40 +300,8 @@ h4 {
 }
 
 @media ( min-width : 1031px) .cards--page-main-2 .column {
-	-webkit-transform
-	
-	
-	
-	
-	:
-	
-	
-	 
-	
-	
-	translateZ
-	
-	
-	
-	
-	(0);
-	transform
-	
-	
-	
-	
-	:
-	
-	
-	 
-	
-	
-	translateZ
-	
-	
-	
-	
-	(0);
+	-webkit-transform:translateZ(0);
+	transform:translateZ(0);
 }
 
 .cards--page-main-2 .column {
@@ -357,40 +325,8 @@ h4 {
 }
 
 @media ( min-width : 1031px) .cards--page-main-2 .column {
-	-webkit-transform
-	
-	
-	
-	
-	:
-	
-	
-	 
-	
-	
-	translateZ
-	
-	
-	
-	
-	(0);
-	transform
-	
-	
-	
-	
-	:
-	
-	
-	 
-	
-	
-	translateZ
-	
-	
-	
-	
-	(0);
+	-webkit-transform:translateZ(0);
+	transform:translateZ(0);
 }
 
 .cards--page-main-2 .column {

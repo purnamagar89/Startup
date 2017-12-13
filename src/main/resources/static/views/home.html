@@ -208,3 +208,97 @@
 		</div>
 	</div>
 </section>
+
+
+
+<section class="bluelayoutbackground" id="contactform">
+        <h2 class="sr-only">Contact us</h2>
+        <div class="container">
+		<header class="section-header text-center">
+	        <h2 class="headline pagetitle">Let’s shake hands and start a project</h2>
+	        <h3 class="pagesubtitle">Rest assured, no details go out of this room.</h3>
+	      </header>
+        <div class="row">
+	        <div class="col-xs-12 col-sm-4 col-md-4 formaddresspart">
+	        	<div class="headquartercover">
+	        		<div class="addresstitle">headquarter</div>
+	        		<div class="addressubtext">675 North First Street,<br>Suite 1240, San Jose, CA 95112</div>
+	        		<a href="https://www.google.com/maps/place/675+N+1st+St+%231240,+San+Jose,+CA+95112,+USA/@37.3484087,-121.9024184,17z/data=!3m1!4b1!4m5!3m4!1s0x808fcc825e5d7c03:0x2b8fcc3ec55f9ec9!8m2!3d37.3484087!4d-121.9002297?hl=en" target="_blank"><button class="viewonmapbtn"><img src="assets/images-new-landing/google-address-trans.png"> View on map</button></a>
+	        	</div>
+	        	<div class="headquartercover">
+	        		<div class="addresstitle">phone</div>
+	        		<div class="addressubtext"><a href="callto:+1-408-675-6740">+1-408-675-6740</a></div>
+	        	</div>
+	        	<div class="headquartercover">
+	        		<div class="addresstitle">email</div>
+	        		<div class="addressubtext"><a href="mailto:info@matellio.com">info@matellio.com</a></div>
+	        	</div>
+	        	<div class="headquartercover">
+	        		<div class="addresstitle">contact with us</div>
+	        		<a target="_blank" href="https://twitter.com/matelliollc" class="home-twitter-link"><img src="assets/images-new-landing/twitter.svg" class="img-responsive addresssocialmediaicon"></a>
+	        		<a target="_blank" href="https://www.linkedin.com/company/matellio" class="home-in-link"><img src="assets/images-new-landing/linkedin.svg" class="img-responsive addresssocialmediaicon"></a>
+	        	</div>
+	        </div>
+	        <div class="col-xs-12 col-sm-8 col-md-8 formtextinfopart">
+	        	<form action="sendInquiry.php" method="post" id="inquiry" class="contact-form" onsubmit="return ValidCaptchaNew()">
+									<div class="form-group form-icon-group">
+										<div class="formfieldscover">
+											<input class="form-control" id="name" name="name" placeholder="Your name *" type="text">
+											<div class="hide-error-msg" id="name-error">Please enter your name.</div>
+										</div>
+										<div class="formfieldscover">
+											<input class="form-control pull-right" id="email" name="email" placeholder="Your email *" type="text">
+											<div class="hide-error-msg" id="email-error">Please enter your correct email-id.</div>
+										</div>
+									</div>
+									<div class="form-group form-icon-group">
+										<div class="formtextareafieldscover">
+											<textarea class="form-control" id="message" name="message" placeholder="Your message *" rows="7"></textarea>
+											<div class="hide-error-msg" id="msg-error">Please enter your message.</div>
+											<input name="rq_referrer" type="hidden" value="http://clutch.co/">
+										</div>
+									</div>
+
+									<div class="captchacodemaindiv">
+										<div class="captchacoverouter">
+											<div class="customcaptchahandelui">
+												<div class="col-xs-12 col-sm-8 col-md-8">
+													<div class="row">
+														<div class="captchatextboxdiv">
+														<input type="text" id="captcha" name="captcha" class="captchatextbox" placeholder="Enter the code here..." maxlength="5">
+															<!-- <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Ldz4SMUAAAAANUGcaIPdmqonXVODdpAs1HirMY7"></div> -->													
+														</div>
+														<div class="hide-error-msg errormagnew" id="captcha-error">Please enter the captcha.</div>
+													</div>
+
+												</div>
+
+												<div class="col-xs-12 col-sm-4 col-md-4">
+													<!-- <div class="row"> -->
+														
+														<div class="captchaimagediv"><img src="regenerateCaptcha.php?rand=1626991227" id="captchaimg"></div>
+														<div class="captcharefreshimgdiv"><img onclick="refreshCaptcha()" src="assets/images/refresh.png" class="captcharefreshimage"></div>
+													<!-- </div> -->
+												</div>
+
+											</div>
+											
+										</div>
+									</div>
+
+									<div class="col-xs-12 col-sm-12 col-md-12">
+										<div class="row">
+											<div class="form-group text-center sendmailvia">
+												<button class="customformsubmitbtn" type="submit" name="submit">
+													Request for a quote
+												</button>
+											</div>
+										</div>
+									</div>
+								</form>
+				<div id="messages"></div>
+				
+	        </div>
+        </div>
+     </div>
+    </section>
