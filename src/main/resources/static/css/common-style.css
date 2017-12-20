@@ -52,7 +52,8 @@ pre {
 
 .container, .container-fluid {
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
+  height:480px;
 }
 
 pre code {
@@ -157,7 +158,7 @@ pre code {
 .form-control, output {
   font-size: 16px;
   line-height: 1.5;
-  color: #777;
+  color: white;
   display: block
 }
 
@@ -174,11 +175,11 @@ pre code {
 
 
 .bluelayoutbackground {
-  background:#111c2d url(../../assets/images-new-landing/contactform-background.jpg) no-repeat scroll 50% 50% / cover;
+  background:#006699;
   float: left;
   height:auto;
   width: 100%;
-  padding: 15px 0px 40px;
+  padding: 5px 0px 10px;
 }
 
 .bluelayoutbackground .section-header{
@@ -364,7 +365,28 @@ pre code {
     -moz-border-radius: 0;
 }
 .form-group input, .form-group textarea {
-    /* background: rgba(255, 255, 255, .24); */
     background: transparent;
     float: left;
 }
+
+.footer {
+  flex-shrink: 0;
+  padding: 20px;  
+}
+.footer-content{
+  font-size: 14px;
+  float: left;
+  text-align: center;
+  width: 100%;
+  font-family: 'Avenir Next LT Pro';
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+  height:55px;
+  line-height: 50px;
+}
+
+.contact-us{
+	color:white;
+}
+
